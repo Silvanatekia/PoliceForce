@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A064162BA0AE77001F083E /* PoliceForceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A064152BA0AE77001F083E /* PoliceForceApp.swift */; };
+		52A064182BA0AE77001F083E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A064172BA0AE77001F083E /* ContentView.swift */; };
+		52A0641A2BA0AE7F001F083E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A064192BA0AE7F001F083E /* Assets.xcassets */; };
+		52A0641E2BA0AE7F001F083E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A0641D2BA0AE7F001F083E /* Preview Assets.xcassets */; };
+		52A064282BA0AE80001F083E /* PoliceForceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A064272BA0AE80001F083E /* PoliceForceTests.swift */; };
+		52A064322BA0AE80001F083E /* PoliceForceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A064312BA0AE80001F083E /* PoliceForceUITests.swift */; };
+		52A064342BA0AE80001F083E /* PoliceForceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A064332BA0AE80001F083E /* PoliceForceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52A064242BA0AE80001F083E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A0640A2BA0AE77001F083E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A064112BA0AE77001F083E;
+			remoteInfo = PoliceForce;
+		};
+		52A0642E2BA0AE80001F083E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52A0640A2BA0AE77001F083E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A064112BA0AE77001F083E;
+			remoteInfo = PoliceForce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52A064122BA0AE77001F083E /* PoliceForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliceForce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A064152BA0AE77001F083E /* PoliceForceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceForceApp.swift; sourceTree = "<group>"; };
+		52A064172BA0AE77001F083E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52A064192BA0AE7F001F083E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A0641B2BA0AE7F001F083E /* PoliceForce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PoliceForce.entitlements; sourceTree = "<group>"; };
+		52A0641D2BA0AE7F001F083E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52A064232BA0AE80001F083E /* PoliceForceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliceForceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A064272BA0AE80001F083E /* PoliceForceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceForceTests.swift; sourceTree = "<group>"; };
+		52A0642D2BA0AE80001F083E /* PoliceForceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliceForceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A064312BA0AE80001F083E /* PoliceForceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceForceUITests.swift; sourceTree = "<group>"; };
+		52A064332BA0AE80001F083E /* PoliceForceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliceForceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A0640F2BA0AE77001F083E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A064202BA0AE80001F083E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A0642A2BA0AE80001F083E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A064092BA0AE77001F083E = {
+			isa = PBXGroup;
+			children = (
+				52A064142BA0AE77001F083E /* PoliceForce */,
+				52A064262BA0AE80001F083E /* PoliceForceTests */,
+				52A064302BA0AE80001F083E /* PoliceForceUITests */,
+				52A064132BA0AE77001F083E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A064132BA0AE77001F083E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A064122BA0AE77001F083E /* PoliceForce.app */,
+				52A064232BA0AE80001F083E /* PoliceForceTests.xctest */,
+				52A0642D2BA0AE80001F083E /* PoliceForceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A064142BA0AE77001F083E /* PoliceForce */ = {
+			isa = PBXGroup;
+			children = (
+				52A064152BA0AE77001F083E /* PoliceForceApp.swift */,
+				52A064172BA0AE77001F083E /* ContentView.swift */,
+				52A064192BA0AE7F001F083E /* Assets.xcassets */,
+				52A0641B2BA0AE7F001F083E /* PoliceForce.entitlements */,
+				52A0641C2BA0AE7F001F083E /* Preview Content */,
+			);
+			path = PoliceForce;
+			sourceTree = "<group>";
+		};
+		52A0641C2BA0AE7F001F083E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52A0641D2BA0AE7F001F083E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52A064262BA0AE80001F083E /* PoliceForceTests */ = {
+			isa = PBXGroup;
+			children = (
+				52A064272BA0AE80001F083E /* PoliceForceTests.swift */,
+			);
+			path = PoliceForceTests;
+			sourceTree = "<group>";
+		};
+		52A064302BA0AE80001F083E /* PoliceForceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52A064312BA0AE80001F083E /* PoliceForceUITests.swift */,
+				52A064332BA0AE80001F083E /* PoliceForceUITestsLaunchTests.swift */,
+			);
+			path = PoliceForceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A064112BA0AE77001F083E /* PoliceForce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A064372BA0AE80001F083E /* Build configuration list for PBXNativeTarget "PoliceForce" */;
+			buildPhases = (
+				52A0640E2BA0AE77001F083E /* Sources */,
+				52A0640F2BA0AE77001F083E /* Frameworks */,
+				52A064102BA0AE77001F083E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoliceForce;
+			productName = PoliceForce;
+			productReference = 52A064122BA0AE77001F083E /* PoliceForce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52A064222BA0AE80001F083E /* PoliceForceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A0643A2BA0AE80001F083E /* Build configuration list for PBXNativeTarget "PoliceForceTests" */;
+			buildPhases = (
+				52A0641F2BA0AE80001F083E /* Sources */,
+				52A064202BA0AE80001F083E /* Frameworks */,
+				52A064212BA0AE80001F083E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A064252BA0AE80001F083E /* PBXTargetDependency */,
+			);
+			name = PoliceForceTests;
+			productName = PoliceForceTests;
+			productReference = 52A064232BA0AE80001F083E /* PoliceForceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52A0642C2BA0AE80001F083E /* PoliceForceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A0643D2BA0AE80001F083E /* Build configuration list for PBXNativeTarget "PoliceForceUITests" */;
+			buildPhases = (
+				52A064292BA0AE80001F083E /* Sources */,
+				52A0642A2BA0AE80001F083E /* Frameworks */,
+				52A0642B2BA0AE80001F083E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52A0642F2BA0AE80001F083E /* PBXTargetDependency */,
+			);
+			name = PoliceForceUITests;
+			productName = PoliceForceUITests;
+			productReference = 52A0642D2BA0AE80001F083E /* PoliceForceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A0640A2BA0AE77001F083E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					52A064112BA0AE77001F083E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					52A064222BA0AE80001F083E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 52A064112BA0AE77001F083E;
+					};
+					52A0642C2BA0AE80001F083E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 52A064112BA0AE77001F083E;
+					};
+				};
+			};
+			buildConfigurationList = 52A0640D2BA0AE77001F083E /* Build configuration list for PBXProject "PoliceForce" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A064092BA0AE77001F083E;
+			productRefGroup = 52A064132BA0AE77001F083E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A064112BA0AE77001F083E /* PoliceForce */,
+				52A064222BA0AE80001F083E /* PoliceForceTests */,
+				52A0642C2BA0AE80001F083E /* PoliceForceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A064102BA0AE77001F083E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A0641E2BA0AE7F001F083E /* Preview Assets.xcassets in Resources */,
+				52A0641A2BA0AE7F001F083E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A064212BA0AE80001F083E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A0642B2BA0AE80001F083E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A0640E2BA0AE77001F083E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A064182BA0AE77001F083E /* ContentView.swift in Sources */,
+				52A064162BA0AE77001F083E /* PoliceForceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A0641F2BA0AE80001F083E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A064282BA0AE80001F083E /* PoliceForceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A064292BA0AE80001F083E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A064342BA0AE80001F083E /* PoliceForceUITestsLaunchTests.swift in Sources */,
+				52A064322BA0AE80001F083E /* PoliceForceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52A064252BA0AE80001F083E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A064112BA0AE77001F083E /* PoliceForce */;
+			targetProxy = 52A064242BA0AE80001F083E /* PBXContainerItemProxy */;
+		};
+		52A0642F2BA0AE80001F083E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52A064112BA0AE77001F083E /* PoliceForce */;
+			targetProxy = 52A0642E2BA0AE80001F083E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52A064352BA0AE80001F083E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A064362BA0AE80001F083E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		52A064382BA0AE80001F083E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PoliceForce/PoliceForce.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoliceForce/Preview Content\"";
+				DEVELOPMENT_TEAM = 4C693GFHSA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TermsAndCondition.PoliceForce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A064392BA0AE80001F083E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PoliceForce/PoliceForce.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoliceForce/Preview Content\"";
+				DEVELOPMENT_TEAM = 4C693GFHSA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TermsAndCondition.PoliceForce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52A0643B2BA0AE80001F083E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C693GFHSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TermsAndCondition.PoliceForceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliceForce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoliceForce";
+			};
+			name = Debug;
+		};
+		52A0643C2BA0AE80001F083E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C693GFHSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TermsAndCondition.PoliceForceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoliceForce.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoliceForce";
+			};
+			name = Release;
+		};
+		52A0643E2BA0AE80001F083E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C693GFHSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TermsAndCondition.PoliceForceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliceForce;
+			};
+			name = Debug;
+		};
+		52A0643F2BA0AE80001F083E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C693GFHSA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TermsAndCondition.PoliceForceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoliceForce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A0640D2BA0AE77001F083E /* Build configuration list for PBXProject "PoliceForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A064352BA0AE80001F083E /* Debug */,
+				52A064362BA0AE80001F083E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A064372BA0AE80001F083E /* Build configuration list for PBXNativeTarget "PoliceForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A064382BA0AE80001F083E /* Debug */,
+				52A064392BA0AE80001F083E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A0643A2BA0AE80001F083E /* Build configuration list for PBXNativeTarget "PoliceForceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A0643B2BA0AE80001F083E /* Debug */,
+				52A0643C2BA0AE80001F083E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A0643D2BA0AE80001F083E /* Build configuration list for PBXNativeTarget "PoliceForceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A0643E2BA0AE80001F083E /* Debug */,
+				52A0643F2BA0AE80001F083E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A0640A2BA0AE77001F083E /* Project object */;
+}
